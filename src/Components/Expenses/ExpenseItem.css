@@ -1,0 +1,33 @@
+.expense-item {
+  display: flex;
+  margin: 1.2rem 0rem 1.4rem 0rem;
+  background-color: rgb(80, 80, 97);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px rgb(28, 49, 52);
+}
+
+.expense-item__description {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: bold;
+  flex-grow: 1;
+  margin-left: 1rem;
+  color: aliceblue;
+}
+
+.expense-item__price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  margin-left: auto;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: #30336b;
+  border-radius: 1rem;
+  border: 0.1rem solid white;
+}
+button {
+  margin: 2.5rem 0rem 2.5rem 0rem;
+}

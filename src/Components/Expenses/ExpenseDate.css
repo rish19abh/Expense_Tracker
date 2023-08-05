@@ -1,0 +1,25 @@
+.expense-date {
+  height: 5rem;
+  width: 5rem;
+  margin: 0.5rem;
+  text-align: center;
+  background-color: rgb(41, 36, 36);
+  border-radius: 1rem;
+  border: 0.1rem solid whitesmoke;
+}
+.expense-date__month {
+  margin: 0.1rem;
+  font-size: 1rem;
+  color: whitesmoke;
+}
+.expense-date__year {
+  margin: 0.1rem;
+  font-size: 1rem;
+  color: whitesmoke;
+}
+.expense-date__day {
+  margin: 0.3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: whitesmoke;
+}
